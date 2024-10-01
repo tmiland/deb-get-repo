@@ -15,10 +15,10 @@ cog.out(pretty_list)
 ]]] -->
 | Source   | Package Name   | Description   |
 | :------: | :------------- | :------------ |
-| [<img src="../assets/github.png" align="top" width="20" />](https://github.com/badaix/snapcast) | `snapclient` | <i>Synchronous audio player</i> |
-| [<img src="../assets/github.png" align="top" width="20" />](https://github.com/badaix/snapcast) | `snapclient-pulse` | <i>Synchronous audio player</i> |
-| [<img src="../assets/github.png" align="top" width="20" />](https://github.com/badaix/snapcast) | `snapserver` | <i>Synchronous audio player</i> |
-| [<img src="../assets/github.png" align="top" width="20" />](https://tabby.sh/) | `tabby-terminal` | <i>A terminal for the modern age</i> |
+| [<img src="./assets/github.png" align="top" width="20" />](https://github.com/badaix/snapcast) | `snapclient` | <i>Synchronous audio player</i> |
+| [<img src="./assets/github.png" align="top" width="20" />](https://github.com/badaix/snapcast) | `snapclient-pulse` | <i>Synchronous audio player</i> |
+| [<img src="./assets/github.png" align="top" width="20" />](https://github.com/badaix/snapcast) | `snapserver` | <i>Synchronous audio player</i> |
+| [<img src="./assets/github.png" align="top" width="20" />](https://tabby.sh/) | `tabby-terminal` | <i>A terminal for the modern age</i> |
 <!-- [[[end]]] -->
 
 
@@ -26,7 +26,7 @@ cog.out(pretty_list)
 
 The icons above denote how `deb-get` installs/updates the packages.
 
-- <img src="../assets/debian.png" align="top" width="20" /> apt repository
-- <img src="../assets/github.png" align="top" width="20" /> GitHub releases
-- <img src="../assets/launchpad.png" align="top" width="20" /> Launchpad PPA
-- <img src="../assets/direct.png" align="top" width="20" /> Website/Direct
+- <img src="./assets/debian.png" align="top" width="20" /> apt repository
+- <img src="./assets/github.png" align="top" width="20" /> GitHub releases
+- <img src="./assets/launchpad.png" align="top" width="20" /> Launchpad PPA
+- <img src="./assets/direct.png" align="top" width="20" /> Website/Direct
