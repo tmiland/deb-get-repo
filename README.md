@@ -10,7 +10,7 @@ wget -q https://github.com/tmiland/deb-get-repo/raw/refs/heads/main/manifest -O 
 import subprocess
 import cog
 
-pretty_list = subprocess.check_output(["./deb-get-repo", "prettylist", "", "--include-unsupported" ], encoding="utf-8")
+pretty_list = subprocess.check_output(["deb-get", "prettylist", "77-tmiland", "--include-unsupported" ], encoding="utf-8")
 cog.out(pretty_list)
 ]]] -->
 | Source   | Package Name   | Description   |
