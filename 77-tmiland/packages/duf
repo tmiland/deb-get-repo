@@ -3,6 +3,7 @@ get_github_releases "muesli/duf" "latest"
 if [ "${ACTION}" != "prettylist" ]; then
   URL=$(grep -m 1 "browser_download_url.*amd64\.deb\"" "${CACHE_FILE}" | cut -d'"' -f4)
   VERSION_PUBLISHED=$(cut -d'/' -f8 <<<"${URL}")
+  VERSION_PUBLISHED=${VERSION_PUBLISHED/v}
 fi
 PRETTY_NAME="duf"
 WEBSITE="https://github.com/muesli/duf"
