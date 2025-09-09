@@ -15,7 +15,9 @@ cog.out(pretty_list)
 ]]] -->
 | Source   | Package Name   | Description   |
 | :------: | :------------- | :------------ |
-| [<img src="./assets/github.png" align="top" width="20" />](https://tabby.sh/) | `tabby-terminal` | <i>A terminal for the modern age</i> |
+| [<img src="./.github/github.png" align="top" width="20" />](https://github.com/muesli/duf) | `duf` | <i>Disk Usage/Free Utility - a better 'df' alternative</i> |
+| [<img src="./.github/github.png" align="top" width="20" />](https://github.com/mfat/sshpilot) | `sshpilot` | <i>Simple, user-friendly SSH connection manager.</i> |
+| [<img src="./.github/github.png" align="top" width="20" />](https://tabby.sh/) | `tabby-terminal` | <i>A terminal for the modern age</i> |
 <!-- [[[end]]] -->
 
 
@@ -23,7 +25,7 @@ cog.out(pretty_list)
 
 The icons above denote how `deb-get` installs/updates the packages.
 
-- <img src="./assets/debian.png" align="top" width="20" /> apt repository
-- <img src="./assets/github.png" align="top" width="20" /> GitHub releases
-- <img src="./assets/launchpad.png" align="top" width="20" /> Launchpad PPA
-- <img src="./assets/direct.png" align="top" width="20" /> Website/Direct
+- <img src="./.github/debian.png" align="top" width="20" /> apt repository
+- <img src="./.github/github.png" align="top" width="20" /> GitHub releases
+- <img src="./.github/launchpad.png" align="top" width="20" /> Launchpad PPA
+- <img src="./.github/direct.png" align="top" width="20" /> Website/Direct
