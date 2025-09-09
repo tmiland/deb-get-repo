@@ -1,10 +1,8 @@
 DEFVER=1
-REPO=muesli/duf
+get_github_releases "muesli/duf" "latest"
 if [ "${ACTION}" != "prettylist" ]; then
-  URL=$(curl --user "$GH_USER:$GH_TOKEN" -sSL https://api.github.com/repos/$REPO/releases 2>/dev/null \
-    | grep -i -m 1 "browser_download_url.*$APP_NAME.*linux_amd64.deb" \
-    | cut -d'"' -f4)
-  VERSION_PUBLISHED=$(echo "$URL" | grep -Eo '[0-9]{1,}\.[0-9]{1,}\.[0-9]{1,}' | head -n 1)
+  URL=$(grep -m 1 "browser_download_url.*amd64\.deb\"" "${CACHE_FILE}" | cut -d'"' -f4)
+  VERSION_PUBLISHED=$(cut -d'/' -f8 <<<"${URL}")
 fi
 PRETTY_NAME="duf"
 WEBSITE="https://github.com/muesli/duf"
