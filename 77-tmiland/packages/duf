@@ -1,3 +1,4 @@
+DEFVER=1
 REPO=muesli/duf
 if [ "${ACTION}" != "prettylist" ]; then
   URL=$(curl --user "$GH_USER:$GH_TOKEN" -sSL https://api.github.com/repos/$REPO/releases 2>/dev/null \
